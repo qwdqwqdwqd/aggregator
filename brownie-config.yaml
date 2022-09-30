@@ -1,0 +1,14 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.3.1
+
+autofetch_sources: true
+dotenv: .env
+
+compiler:
+  solc:
+    version: 0.8.17
+    optimizer:
+      enabled: true
+      runs: 999999
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.3.1"
